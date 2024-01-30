@@ -1,5 +1,5 @@
-import runApp from './runApp.js';
+import callOcp from './callOcp.js';
 
-runApp()
+callOcp()
   .then(() => console.log('App has finished running'))
   .catch(() => console.error('App has finished running with an error'));

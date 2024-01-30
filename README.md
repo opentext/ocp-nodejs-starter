@@ -2,7 +2,7 @@
 
 ## Overview
 
-This application demonstrates how to consume the IM services from the OpenText Cloud Platform using Node.js. This is intended to be a server-side app with the simplest set-up to get developers started making API calls to an OCP application using the client_credentials grant.
+This application demonstrates how to consume the IM services from the OpenText Cloud Platform using Node.js. This is intended to be a server-side or cli app with the simplest possible set-up to get developers started making API calls to an OCP application using the OAuth client_credentials grant.
 
 ## Technologies
 
@@ -44,7 +44,9 @@ npm install
 npm start
 ```
 
-The application will fetch a token and will print the names of the Content Metadata service traits in your app.
+As an example to get you started, the application will fetch a token and print the names of the Content Metadata service traits in your app to the console. 
+
+You can then add new samples in the [ocp](src/ocp) directory to make calls to other API endpoints and test interacting with the APIs using JavaScript. You can replace the existing traits code in [callOcp](src/callOcp.js) and use the token to make other calls.
 
 ## Background
 
